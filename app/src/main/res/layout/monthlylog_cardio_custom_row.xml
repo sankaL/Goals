@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="280dp"
+        android:background="@mipmap/track_back"
+        android:id="@+id/relativeLayoutCardio"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/dataContainer"
+            android:layout_marginEnd="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="28dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Type:"
+                    android:id="@+id/NameTextViewCAR1"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/NameTextViewCAR2"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp"
+                    android:background="@drawable/button5_shape"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Duration:"
+                    android:id="@+id/DurationViewCAR1"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/DurationViewCAR2"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp"
+                    android:background="@drawable/button5_shape"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Distance"
+                    android:id="@+id/DistanceViewCAR1"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/DistanceViewCAR2"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp"
+                    android:background="@drawable/button5_shape"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Level:"
+                    android:id="@+id/LevelViewCAR1"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/LevelViewCAR2"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp"
+                    android:background="@drawable/button5_shape"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateContainer"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="150dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/linearLayout11"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/DateTextViewCAR2"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#f8f8f8"
+                    android:layout_weight="3.28"
+                    android:textSize="13dp"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="5dp"
+                android:layout_below="@+id/linearLayout11"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout12">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/TimeTextViewCAR2"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#d90100"
+                    android:textSize="13dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

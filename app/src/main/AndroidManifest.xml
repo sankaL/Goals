@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sanke.goals" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".GoalsActivity"
+            android:label="@string/title_activity_goals" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="Goals Menu" >
+        </activity>
+        <activity
+            android:name=".ProgramsActivity"
+            android:label="Programs" >
+        </activity>
+        <activity
+            android:name=".SessionActivity"
+            android:label="Session" >
+        </activity>
+        <activity
+            android:name=".ArmsActivity"
+            android:label="@string/title_activity_arms" >
+        </activity>
+        <activity
+            android:name=".LogYearActivity"
+            android:label="@string/title_activity_log_year" >
+        </activity>
+        <activity
+            android:name=".LogMonthActivity"
+            android:label="@string/title_activity_log_month"
+            android:parentActivityName=".LogYearActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sanke.goals.LogYearActivity" />
+        </activity>
+        <activity
+            android:name=".MonthlyViewWeightsActivity"
+            android:label="@string/title_activity_monthly_view" >
+        </activity>
+        <activity
+            android:name=".DateDeleteActivity"
+            android:label="@string/title_activity_date_delete" >
+        </activity>
+        <activity
+            android:name=".CardioActivity"
+            android:label="@string/title_activity_cardio" >
+        </activity>
+        <activity
+            android:name=".WeightCardioPicker"
+            android:label="@string/title_activity_weight_cardio_picker" >
+        </activity>
+        <activity
+            android:name=".MonthlyViewCardioActivity"
+            android:label="@string/title_activity_monthly_view_cardio" >
+        </activity>
+    </application>
+
+</manifest>
