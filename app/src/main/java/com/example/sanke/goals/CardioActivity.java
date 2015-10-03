@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -34,6 +36,9 @@ public class CardioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cardio);
 
         v = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+
+        // Handles the user interface design
+        handleUI();
 
         cardioInputHandler(cardio);
     }
@@ -97,7 +102,25 @@ public class CardioActivity extends AppCompatActivity {
     // generates the user interface for the cardio Activity
     private void handleUI(){
 
-        TextView t1 = (TextView)findViewById(R.id.workout1Text);
+        Typeface elite = Typeface.createFromAsset(getAssets(), "SpecialElite.ttf");
+        Typeface capture_it = Typeface.createFromAsset(getAssets(), "Capture_it.ttf");
+
+
+        TextView type = (TextView)findViewById(R.id.cardioTypeText);
+        TextView duration = (TextView)findViewById(R.id.cardioDurationText);
+        TextView distance = (TextView)findViewById(R.id.cardioDistanceText);
+        TextView level = (TextView)findViewById(R.id.cardioLevelText);
+
+        Button back = (Button)findViewById(R.id.cardioBackButton);
+        Button log = (Button)findViewById(R.id.cardioLogSession);
+
+        type.setTypeface(elite);
+        duration.setTypeface(elite);
+        distance.setTypeface(elite);
+        level.setTypeface(elite);
+
+        back.setTypeface(capture_it);
+        log.setTypeface(capture_it);
 
     }
 
