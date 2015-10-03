@@ -124,37 +124,37 @@ public class MonthlyViewCardioAdapter  extends ArrayAdapter<String> {
         if (numDate.substring(4,6).equals("01")) {
             formatedDate = "January " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("02")) {
             formatedDate = "February " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("03")) {
             formatedDate = "March " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("04")) {
             formatedDate = "April " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("05")) {
             formatedDate = "May " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("06")) {
             formatedDate = "June " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("07")) {
             formatedDate = "July " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("08")) {
             formatedDate = "August " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
         else if (numDate.substring(4,6).equals("09")) {
             formatedDate = "September " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("10")) {
             formatedDate = "October " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("11")) {
             formatedDate = "November " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
-        else if (numDate.substring(4,6).equals("01")) {
+        else if (numDate.substring(4,6).equals("12")) {
             formatedDate = "December " + numDate.substring(6,8) + 	", " + numDate.substring(0,4);
         }
         else
