@@ -88,11 +88,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
 
@@ -115,11 +124,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
 
@@ -142,11 +160,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
     }
@@ -166,11 +193,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Seleted workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
-        Intent intent = new Intent(getApplicationContext(),MonthlyViewWeightsActivity.class);
+        Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
-        bundle.putParcelableArrayList("MonthData", workoutList);
+        bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
 
@@ -192,14 +228,22 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
-
     }
 
     public void onClickJune(View view){
@@ -218,11 +262,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
 
@@ -244,11 +297,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
     }
@@ -269,11 +331,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
 
@@ -297,11 +368,13 @@ public class LogMonthActivity extends AppCompatActivity {
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
         cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
         for (Cardio cn : cardioList) {
             String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
             // Writing Workouts to log
             Log.d(TAG, log);
         }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
@@ -327,11 +400,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
+
+
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
 
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
     }
@@ -352,11 +434,20 @@ public class LogMonthActivity extends AppCompatActivity {
         // Reading all workouts on the specific month
         Log.d(TAG, "Selected workouts on month: " + retrieveWorkoutMonth);
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
+        cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
     }
@@ -379,10 +470,18 @@ public class LogMonthActivity extends AppCompatActivity {
         workoutList = db.getWorkoutsUsingMonth(retrieveWorkoutMonth);
         cardioList = db.getCardiosUsingMonth(retrieveWorkoutMonth);
 
+        /*
+        for (Cardio cn : cardioList) {
+            String log = "Id: " + cn.get_id() + ", Date: " + cn.get_date() + ", Time: " + cn.get_time() + ", Name: " + cn.get_name() + ", Duration: " + cn.get_duration() + ", Distance: " + cn.get_distance() + ", Level: " + cn.get_level();
+            // Writing Workouts to log
+            Log.d(TAG, log);
+        }
+        */
 
         Intent intent = new Intent(getApplicationContext(),WeightCardioPicker.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("MonthDataWeights", workoutList);
+        bundle.putParcelableArrayList("MonthDataCardio", cardioList);
         intent.putExtras(bundle);
         startActivity(intent);
 
