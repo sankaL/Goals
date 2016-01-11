@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by sanke on 01/09/2015.
+ * Created by sanka on 01/09/2015.
  */
 public class Workout implements Parcelable {
 
