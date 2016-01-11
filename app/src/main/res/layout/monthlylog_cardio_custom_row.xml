@@ -46,7 +46,7 @@
                     android:id="@+id/NameTextViewCAR2"
                     android:layout_marginLeft="10dp"
                     android:textColor="#ffffff"
-                    android:textSize="14dp"
+                    android:textSize="12dp"
                     android:background="@drawable/button5_shape"
                     android:padding="5dp" />
             </LinearLayout>
@@ -76,7 +76,7 @@
                     android:id="@+id/DurationViewCAR2"
                     android:layout_marginLeft="10dp"
                     android:textColor="#ffffff"
-                    android:textSize="14dp"
+                    android:textSize="12dp"
                     android:background="@drawable/button5_shape"
                     android:padding="5dp" />
             </LinearLayout>
@@ -106,7 +106,7 @@
                     android:id="@+id/DistanceViewCAR2"
                     android:layout_marginLeft="10dp"
                     android:textColor="#ffffff"
-                    android:textSize="14dp"
+                    android:textSize="12dp"
                     android:background="@drawable/button5_shape"
                     android:padding="5dp" />
             </LinearLayout>
@@ -135,7 +135,7 @@
                     android:id="@+id/LevelViewCAR2"
                     android:layout_marginLeft="10dp"
                     android:textColor="#ffffff"
-                    android:textSize="14dp"
+                    android:textSize="12dp"
                     android:background="@drawable/button5_shape"
                     android:padding="5dp" />
             </LinearLayout>
