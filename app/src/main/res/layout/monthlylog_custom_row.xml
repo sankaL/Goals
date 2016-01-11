@@ -95,7 +95,8 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
-                        android:textSize="13dp" />
+                        android:textSize="13dp"
+                        android:layout_marginTop="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -124,7 +125,8 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
-                        android:textSize="13dp" />
+                        android:textSize="13dp"
+                        android:layout_marginTop="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -153,7 +155,8 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
-                        android:textSize="13dp" />
+                        android:textSize="13dp"
+                        android:layout_marginTop="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -182,7 +185,8 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
-                        android:textSize="13dp" />
+                        android:textSize="13dp"
+                        android:layout_marginTop="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -211,7 +215,8 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
-                        android:textSize="13dp" />
+                        android:textSize="13dp"
+                        android:layout_marginTop="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -240,7 +245,8 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
-                        android:textSize="13dp" />
+                        android:textSize="13dp"
+                        android:layout_marginTop="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -269,7 +275,8 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
-                        android:textSize="13dp" />
+                        android:textSize="13dp"
+                        android:layout_marginTop="5dp" />
                 </LinearLayout>
             </LinearLayout>
 

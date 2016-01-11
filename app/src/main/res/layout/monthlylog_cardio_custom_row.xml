@@ -48,7 +48,7 @@
                     android:textColor="#ffffff"
                     android:textSize="12dp"
                     android:background="@drawable/button5_shape"
-                    android:padding="5dp" />
+                    android:padding="7dp" />
             </LinearLayout>
 
 
@@ -78,7 +78,7 @@
                     android:textColor="#ffffff"
                     android:textSize="12dp"
                     android:background="@drawable/button5_shape"
-                    android:padding="5dp" />
+                    android:padding="7dp" />
             </LinearLayout>
 
 
@@ -93,7 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Distance"
+                    android:text="Distance:"
                     android:id="@+id/DistanceViewCAR1"
                     android:textColor="#ffffff"
                     android:textSize="14dp" />
@@ -108,7 +108,7 @@
                     android:textColor="#ffffff"
                     android:textSize="12dp"
                     android:background="@drawable/button5_shape"
-                    android:padding="5dp" />
+                    android:padding="7dp" />
             </LinearLayout>
 
 
@@ -137,7 +137,7 @@
                     android:textColor="#ffffff"
                     android:textSize="12dp"
                     android:background="@drawable/button5_shape"
-                    android:padding="5dp" />
+                    android:padding="7dp" />
             </LinearLayout>
 
 
