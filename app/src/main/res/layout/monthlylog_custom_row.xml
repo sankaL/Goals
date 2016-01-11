@@ -96,7 +96,7 @@
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
                         android:textSize="13dp"
-                        android:layout_marginTop="5dp" />
+                        android:padding="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -126,7 +126,7 @@
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
                         android:textSize="13dp"
-                        android:layout_marginTop="5dp" />
+                        android:padding="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -156,7 +156,7 @@
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
                         android:textSize="13dp"
-                        android:layout_marginTop="5dp" />
+                        android:padding="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -186,7 +186,7 @@
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
                         android:textSize="13dp"
-                        android:layout_marginTop="5dp" />
+                        android:padding="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -216,7 +216,7 @@
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
                         android:textSize="13dp"
-                        android:layout_marginTop="5dp" />
+                        android:padding="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -246,7 +246,7 @@
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
                         android:textSize="13dp"
-                        android:layout_marginTop="5dp" />
+                        android:padding="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -276,7 +276,7 @@
                         android:layout_marginRight="5dp"
                         android:textColor="#999999"
                         android:textSize="13dp"
-                        android:layout_marginTop="5dp" />
+                        android:padding="5dp" />
                 </LinearLayout>
             </LinearLayout>
 
